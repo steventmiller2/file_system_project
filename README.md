@@ -3,15 +3,15 @@
 Running the application:
 1. Download the file-system-project.jar from build/libs
 2. run ***java -jar file-system-project.jar***
-3. The database will connect and prompt a login screen which can be entered using one of three default users (see explaination of how I managed permissions):<br />
+3. The database will connect and prompt a login screen which can be entered using one of three default users:<br />
     a. username: admin, password: admin<br />
     b. username: user1, password: password1<br />
     c. username: user2, password: password2
 4. Inputting the commands ***pwd***, ***ls***, ***mkdir***, ***rmd***, ***rm*** should act as expected
-5. Command ***touch <file name>*** will create a file and prompt you to add its contents
-6. Command ***cat <file name>*** will return its contents
-7. Command ***update-file <file name>*** will prompt you to update its contents
-8. Command ***chmod <file/directory name>*** will allow you to change the public/private permissions on the file
+5. Command ***touch <fileEntryName>*** will create a file and prompt you to add its contents
+6. Command ***cat <fileEntryName>*** will return its contents
+7. Command ***update-file <fileEntryName>*** will prompt you to update its contents
+8. Command ***chmod <fileEntryName>*** will allow you to change the public/private permissions on the file
 9. Command ***exit*** will close the persistent database connection and close the application
 10. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
 
