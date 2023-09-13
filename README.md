@@ -23,7 +23,7 @@ Permissions:
 2. By default, any files and directories created are marked as private.
 3. Admin has permissions to read/write/delete everything.
 4. The owner/admin of the file entry can change the permissions by using the `chmod <entryName>` command
-5. Example: if user1 creates file1, user2 will be able to see it but not read/write/delete it, however admin could
+5. Example: if user1 creates file1, user2 will be able to read it but not write/delete it, however admin could
 
 
 Build and Run Steps (if cloning repo):
