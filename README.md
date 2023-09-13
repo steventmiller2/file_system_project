@@ -8,12 +8,13 @@ Running the application:
     b. username: user1, password: password1<br />
     c. username: user2, password: password2
 4. Inputting the commands `pwd`, `ls`, `mkdir`, `rmd`, `rm` should act as expected
-5. Command `touch <fileEntryName>` will create a file and prompt you to add its contents
-6. Command `cat <fileEntryName>` will return its contents
-7. Command `update-file <fileEntryName>` will prompt you to update its contents
-8. Command `chmod <fileEntryName>` will allow you to change the public/private permissions on the file
-9. Command `exit` will close the persistent database connection and close the application
-10. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
+5. Command `cd <dirName>` should act as expected, but only moves 1 directory up or down at a time
+6. Command `touch <fileName>` will create a file and prompt you to add its contents
+7. Command `cat <fileName>` will return its contents
+8. Command `update-file <fileName>` will prompt you to update its contents
+9. Command `chmod <entryName>` will allow you to change the public/private permissions on the file
+10. Command `exit` will close the persistent database connection and close the application
+11. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
 
 Permissions:
 1. Two permission types:<br />
