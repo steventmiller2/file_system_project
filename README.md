@@ -18,7 +18,7 @@ Running the application:
 
 Permissions:
 1. Two permission types:<br />
-    Private - not able read, write, or delete file entries you do not own<br />
+    Private - not able write or delete file entries you do not own<br />
     Public - open to read, write, and delete by all users
 2. By default, any files and directories created are marked as private.
 3. Admin has permissions to read/write/delete everything.
