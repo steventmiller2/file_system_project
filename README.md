@@ -8,10 +8,10 @@ Running the application:
     b. username: user1, password: password1<br />
     c. username: user2, password: password2
 4. Inputting the commands ***pwd***, ***ls***, ***mkdir***, ***rmd***, ***rm*** should act as expected
-5. Command ***touch <fileEntryName>*** will create a file and prompt you to add its contents
-6. Command ***cat <fileEntryName>*** will return its contents
-7. Command ***update-file <fileEntryName>*** will prompt you to update its contents
-8. Command ***chmod <fileEntryName>*** will allow you to change the public/private permissions on the file
+5. Command ***touch ...fileEntryName*** will create a file and prompt you to add its contents
+6. Command ***cat ...fileEntryName*** will return its contents
+7. Command ***update-file ...fileEntryName*** will prompt you to update its contents
+8. Command ***chmod ...fileEntryName*** will allow you to change the public/private permissions on the file
 9. Command ***exit*** will close the persistent database connection and close the application
 10. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
 
