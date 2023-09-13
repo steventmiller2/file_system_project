@@ -2,7 +2,7 @@
 
 Running the application:
 1. Download the file-system-project.jar from build/libs
-2. run ***java -jar file-system-project.jar***
+2. run `java -jar file-system-project.jar`
 3. The database will connect and prompt a login screen which can be entered using one of three default users:<br />
     a. username: admin, password: admin<br />
     b. username: user1, password: password1<br />
