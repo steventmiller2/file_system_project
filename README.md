@@ -7,12 +7,12 @@ Running the application:
     a. username: admin, password: admin<br />
     b. username: user1, password: password1<br />
     c. username: user2, password: password2
-4. Inputting the commands ***pwd***, ***ls***, ***mkdir***, ***rmd***, ***rm*** should act as expected
-5. Command `touch *fileEntryName*` will create a file and prompt you to add its contents
-6. Command ***cat*** ***<fileEntryName>*** will return its contents
-7. Command ***update-file*** ***<fileEntryName>*** will prompt you to update its contents
-8. Command ***chmod*** ***<fileEntryName>*** will allow you to change the public/private permissions on the file
-9. Command ***exit*** will close the persistent database connection and close the application
+4. Inputting the commands `pwd`, `ls`, `mkdir`, `rmd`, `rm` should act as expected
+5. Command `touch <fileEntryName>` will create a file and prompt you to add its contents
+6. Command `cat <fileEntryName>` will return its contents
+7. Command `update-file <fileEntryName>` will prompt you to update its contents
+8. Command `chmod <fileEntryName>` will allow you to change the public/private permissions on the file
+9. Command `exit` will close the persistent database connection and close the application
 10. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
 
 Permissions:
@@ -21,7 +21,7 @@ Permissions:
     Public - open to read, write, and delete by all users
 2. By default, any files and directories created are marked as private.
 3. Admin has permissions to read/write/delete everything.
-4. The owner/admin of the file entry can change the permissions by using the ***chmod <file entry name>*** command
+4. The owner/admin of the file entry can change the permissions by using the `chmod <file entry name>` command
 5. Example: if user1 creates file1, user2 will be able to see it but not read/write/delete it, however admin could
 
 
