@@ -16,12 +16,12 @@ Running the application:
 10. Rerunning the application will prompt login, then place the user in the root directory and maintain the previously created directories and files
 
 Permissions:
-  Two permission types:
-    Private - not able read, write, or delete file entries you do not own
-    Public - open to read, write, and delete by all users
-1. By default, any files and directories created are marked as private.
-2. Admin has permissions to read/write/delete everything.
-3. The owner/admin of the file entry can change the permissions by using the ***chmod <file entry name>*** command
+1. Two permission types:
+    a. Private - not able read, write, or delete file entries you do not own
+    b. Public - open to read, write, and delete by all users
+2. By default, any files and directories created are marked as private.
+3. Admin has permissions to read/write/delete everything.
+4. The owner/admin of the file entry can change the permissions by using the ***chmod <file entry name>*** command
 
 
 Build and Run Steps (if cloning repo):
